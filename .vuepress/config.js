@@ -1,6 +1,6 @@
 module.exports = {
-  title: "vuepress-theme-reco",
-  description: 'A simple and beautiful vuepress blog theme .',
+  title: "DearAndreLi的博客",
+  description: '因为喜爱，所以相聚',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -9,18 +9,18 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs', 
+      { text: '主页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+      { text: '博客',
         icon: 'reco-message',
         items: [
           { text: 'vuepress-reco', link: '/docs/theme-reco/' }
         ]
       },
-      { text: 'Contact', 
+      { text: '关联',
         icon: 'reco-message',
         items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
+          { text: 'GitHub', link: 'https://github.com/17535250630/myblog', icon: 'reco-github' }
         ]
       }
     ],
@@ -37,25 +37,25 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
+        text: '分类' // 默认 “分类”
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
+        text: '标签' // 默认 “标签”
       }
     },
     friendLink: [
       {
-        title: '午后南杂',
-        desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
+        title: 'DearAndreLi',
+        desc: '享受拥有的每一天。',
+        email: '1538240253@qq.com',
+        link: 'https://myblogtest-8e4vy1ptp-17535250630.vercel.app'
       },
       {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
+        title: 'DearAndreLi的博客',
+        desc: '因为爱好，所以相遇',
+        avatar: "/favicon.ico",
+        link: 'https://myblogtest-8e4vy1ptp-17535250630.vercel.app'
       },
     ],
     logo: '/logo.png',
@@ -67,13 +67,13 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    author: 'DearAndreLi',
     // 作者头像
     authorAvatar: '/avatar.png',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
-    startYear: '2017'
+    startYear: 'js入门语法'
     /**
      * 密钥 (if your blog is private)
      */

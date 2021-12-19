@@ -1,5 +1,5 @@
 ---
-title: plugin
+title: 我的日记
 date: 2020-05-28
 ---
 
